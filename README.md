@@ -43,9 +43,13 @@ most languages which make this too easy (e.g pandas) and we’d like you to show
 
 ## Instructions
 - Have Python 3.8.2 installed and updated
+- Make most_active_cookie script executable by doing
+
+     chmod +x most_active_cookie
+
 - Run the command in the following format:
 
-./most_active_cookie [CSV FILE] -d [DATE]
+     ./most_active_cookie [CSV FILE] -d [DATE]
 
 ex. ./most_active_cookie cookie_log.csv -d 2018-12-09
 
