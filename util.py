@@ -77,6 +77,7 @@ def parseCSV(filename):
 '''
 Appends parsed data to dictionary. The dictionary maps dates to another dictionary
 which keeps track of the number of occurrences of a cookie of that date.
+Returns updated dictionary.
 '''
 def appendDict(cookie, date, dic):
 	if date in dic:
