@@ -4,7 +4,7 @@ import sys
 from util import *
 
 def main(argv):
-	# Get the file name and date from command line argument
+	# Get the file name and date from command line argument.
 	filename, date = parseCommandLine(argv)
 	
 	# Parse the csv file and format the data into a dictionary.
@@ -12,7 +12,7 @@ def main(argv):
 	# Essentially keeps track of cookie occurences on specific dates.
 	dic = parseCSV(filename)
 	
-	# Get the most active cookies from the dictionary
+	# Get the most active cookies from the dictionary on the specific date.
 	mostActiveCookie(dic, date)
 	
 	return
