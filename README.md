@@ -58,3 +58,9 @@ ex. cookie_log.csv
 Any date that is in the format of yyyy-mm-dd
 
 ex. 2021-11-23
+
+## Files
+- `most_active_cookie` - the main file that uses the functions in util.py to create the functionality of this task
+- `util.py` - contains the small functions necessary for most_active_cookie (ex. parsing the command line, keeping count of cookie occurences of specific date in dictionary form, determining most active cookie on a specific date)
+- `test.py` - testing script for the functions in util.py
+- `cookie_log.csv` - a sample csv file applicable for most_active_cookie
