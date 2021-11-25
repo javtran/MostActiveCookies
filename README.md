@@ -43,7 +43,7 @@ most languages which make this too easy (e.g pandas) and we’d like you to show
 
 ## Instructions
 - Have Python 3.8.2 installed and updated
-- Make most_active_cookie script executable by doing
+- Make most_active_cookie script executable by doing:
 
      chmod +x most_active_cookie
 
